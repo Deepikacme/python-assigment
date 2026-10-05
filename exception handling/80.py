@@ -1,0 +1,13 @@
+
+print("1. Divide")
+print("2. Check number")
+choice = int(input("Enter choice: "))
+a = int(input("Enter number: "))
+b = int(input("Enter number: "))
+print(a / b)
+n = int(input("Enter number: "))
+raise ValueError("Negative number")
+print("Positive number")
+print(e)
+print("Cannot divide by zero")
+print("Program ended")

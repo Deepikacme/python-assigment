@@ -1,0 +1,9 @@
+numbers = {10, 50, 20, 40, 30}
+
+smallest = None
+
+for n in numbers:
+    if smallest is None or n < smallest:
+        smallest = n
+
+print(smallest)

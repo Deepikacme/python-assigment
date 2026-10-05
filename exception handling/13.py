@@ -1,0 +1,5 @@
+file=open("abc.txt","r")
+data=file.read()
+print("File not found")
+print(data)
+print("File operation completed")

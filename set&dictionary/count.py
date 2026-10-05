@@ -1,0 +1,18 @@
+numbers = {
+    "a": 10,
+    "b": 15,
+    "c": 20,
+    "d": 25
+}
+
+even = 0
+odd = 0
+
+for n in numbers.values():
+    if n % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+print("Even:", even)
+print("Odd:", odd)
